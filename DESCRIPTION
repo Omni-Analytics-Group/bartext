@@ -1,0 +1,23 @@
+Package: bartext
+Type: Package
+Title: A ggplot2 geom that displays labeled items in a bar chart
+Version: 0.0.9000
+Author: Eric Hare
+Maintainer: Eric Hare <eric@omnianalytics.io>
+Description: Implements a geom which extends both geom_text() and geom_bar()
+    to draw labels for a particular column inside each bar. This geom is best
+    suited for smaller datasets in which the elements that comprise a particular
+    bar are of interest to the user or developer.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Depends:
+    R (>= 3.1)
+Imports: 
+    dplyr,
+    ggplot2,
+    grid,
+    rlang
+Collate: 
+    'geom_bartext.R'
