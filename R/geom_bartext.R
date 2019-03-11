@@ -10,7 +10,7 @@ GeomBarText <- ggproto("GeomBarText", Geom,
 
                     default_aes = aes(
                         lwd = 0.5, fill = "grey35", colour = NA, angle = 0,
-                        fontsize = 3, alpha = 1, textcolour = "white"
+                        fontsize = 3, fontface = 1, alpha = 1, textcolour = "white"
                     ),
 
                     setup_data = function(data, params) {
